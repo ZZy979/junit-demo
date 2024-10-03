@@ -18,7 +18,7 @@ jobs:
     - name: Setup JDK
       uses: actions/setup-java@v4
       with:
-        java-version: '17'
-        distribution: 'temurin'
+        java-version: '8'
+        distribution: 'zulu'
     - name: Run test with Maven
       run: mvn test
